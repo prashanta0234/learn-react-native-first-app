@@ -27,6 +27,26 @@ export const styles = StyleSheet.create({
     marginBottom: 20,
     // color: "black",
   },
+
+  goalList: {
+    backgroundColor: "#87b4c7",
+    marginBottom: 8,
+    padding: 8,
+    flex: 1,
+    flexDirection: "row",
+    justifyContent: "space-between",
+  },
+  goalListDel: {
+    backgroundColor: "red",
+    paddingTop: 2,
+    paddingBottom: 2,
+    paddingLeft: 6,
+    paddingRight: 6,
+    borderRadius: 4,
+  },
+  goalListDelText: {
+    color: "white",
+  },
   goalContainer: {
     flex: 2,
   },

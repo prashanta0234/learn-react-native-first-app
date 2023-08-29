@@ -17,6 +17,7 @@ import { styles } from "./styles/styles";
 
 export default function App() {
   const [goals, setGoals] = useState([]);
+  console.log(goals);
 
   const Separator = () => <View style={styles.separator} />;
   return (
@@ -26,7 +27,7 @@ export default function App() {
       </View>
       <Separator />
       <View style={styles.goalContainer}>
-        <GoalItem goals={goals} />
+        <GoalItem goals={goals} setGoals={setGoals} />
       </View>
     </View>
   );
